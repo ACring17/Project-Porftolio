@@ -7,3 +7,5 @@ body * {
     font: inherit;
     vertical-align: baseline;
 }
+
+@media (min-width: 400px) {}
