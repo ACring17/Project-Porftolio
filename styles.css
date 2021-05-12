@@ -3,9 +3,29 @@ body {
     font: normal 75% Arial, Helvetica, sans-serif;
 }
 
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.introduction {
+    color: white;
+    text-align: center;
 }
 
 
