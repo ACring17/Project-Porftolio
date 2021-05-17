@@ -11,6 +11,10 @@ body * {
     min-height: 100vh;
 }
 
+.half-section {
+    min-height: 50vh;
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
