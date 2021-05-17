@@ -15,6 +15,14 @@ body * {
     min-height: 50vh;
 }
 
+.default {
+    text-align: center;
+    padding: 10% 20%;
+    background-color: #d9d9d9;
+    color: #00356b;
+    text-shadow: .5px .5px .5px #002244;
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
