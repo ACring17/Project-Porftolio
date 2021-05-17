@@ -30,8 +30,13 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     color: #dddddd;
+    background: rgb(0, 53, 107);
 }
 
+li a:hover {
+    background: rgb(0, 3, 255);
+    background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgba(2, 126, 251, 1) 100%);
+}
 
 /*Link effect, mess with the code so it gets each indivdual link and not the entire block of links */
 
