@@ -112,7 +112,11 @@ li a:hover {
 
 #projects {}
 
-#contact {}
+#contact h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
 
 #resume {}
 
