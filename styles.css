@@ -79,6 +79,7 @@ a:hover::after {
     top: 0;
     width: 100%;
     font-size: xx-large;
+    z-index: 1;
 }
 
 #introduction {
