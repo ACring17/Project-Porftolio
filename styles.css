@@ -170,6 +170,10 @@ li a:hover {
     padding: 20px 0px;
 }
 
+#projects li {
+    padding: 30px 20px;
+}
+
 #contact h2 {
     font-size: 30px;
     line-height: 50px;
