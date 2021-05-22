@@ -157,6 +157,10 @@ li a:hover {
     align-items: center;
 }
 
+.project-container {
+    padding: 30px 0px;
+}
+
 #projects img {
     display: inline;
     padding: 30px 0px;
