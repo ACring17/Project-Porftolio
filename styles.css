@@ -167,8 +167,9 @@ strong {
 }
 
 #projects img {
-    display: inline;
-    padding: 30px 0px;
+    margin: 30px 0px;
+    border: 6px solid;
+    border-color: #00356b;
 }
 
 #projects h2 {
