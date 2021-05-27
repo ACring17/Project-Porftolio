@@ -112,6 +112,10 @@ strong {
     padding: 50px 0px;
 }
 
+#experience img {
+    padding: 0px 25px;
+}
+
 #experience img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
