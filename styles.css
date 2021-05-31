@@ -23,6 +23,14 @@ body * {
     text-shadow: .5px .5px .5px #002244;
 }
 
+.inverse {
+    text-align: center;
+    padding: 10% 20%;
+    background-color: #00356b;
+    color: #d9d9d9;
+    text-shadow: .5px .5px .5px #a7a7a7;
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
