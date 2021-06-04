@@ -196,6 +196,7 @@ strong {
 #projects p {
     padding: 20px 0px;
     line-height: 35px;
+    font-size: 18px;
 }
 
 #projects li {
