@@ -53,8 +53,8 @@ li a {
 }
 
 li a:hover {
-    background: rgb(0, 3, 255);
-    background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    background: rgb(0, 18, 44);
+    background: linear-gradient(0deg, rgb(0, 18, 44) 0%, rgb(0, 140, 255) 100%);
 }
 
 hr {
