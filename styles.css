@@ -151,13 +151,17 @@ strong {
 /* Projects */
 
 .flex-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 80% 80%;
+    /*Been messing with how to display the projects together, with grid I can display side by side but they don't line up properly */
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .project-container {
+    display: flex;
+    flex-flow: column;
     padding: 30px 0px;
     margin: 15px 0px;
 }
