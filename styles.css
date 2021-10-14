@@ -173,7 +173,7 @@ strong {
 }
 
 #projects img:hover {
-    opacity: .5;
+    opacity: .3;
     color: black;
     background-color: #d9d9d9;
 }
