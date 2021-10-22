@@ -188,6 +188,10 @@ strong {
     font-size: 18px;
 }
 
+.hoverInfo{
+    /*Need to come up with the styling to get the text to display on hover*/
+}
+
 #projects li {
     padding: 30px 20px;
 }
