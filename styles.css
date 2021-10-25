@@ -172,12 +172,6 @@ strong {
     border-color: #00356b;
 }
 
-#projects img:hover {
-    opacity: .3;
-    color: black;
-    background-color: #d9d9d9;
-}
-
 #projects h2 {
     font-size: 18px;
 }
@@ -186,10 +180,6 @@ strong {
     padding: 20px 0px;
     line-height: 35px;
     font-size: 18px;
-}
-
-.hoverInfo{
-    /*Need to come up with the styling to get the text to display on hover*/
 }
 
 #projects li {
