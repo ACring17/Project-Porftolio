@@ -99,6 +99,10 @@ strong {
     font-size: 81px;
 }
 
+.sectionTitle {
+    font-size: 55px;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {
