@@ -224,3 +224,15 @@ strong {
     }
 }
 
+@media (max-width: 725px) {
+    #topNav li {
+        display: grid;
+        grid-template-columns: 80% 80%;
+        align-items: center;
+        padding: 10px;
+    }
+    #topNav {
+        padding: 0px 2px;
+    }
+}
+
