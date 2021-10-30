@@ -215,7 +215,7 @@ strong {
     padding: 50px 0px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
     .flex-container {
         display: flex;
         flex-flow: row wrap;
