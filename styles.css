@@ -197,6 +197,7 @@ strong {
 /* Contact */
 
 #contact h2 {
+    margin: 25px 0;
     font-size: 35px;
     line-height: 50px;
 }
@@ -208,7 +209,7 @@ strong {
 
 #contact a {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     flex-flow: column;
 }
