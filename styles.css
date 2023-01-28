@@ -207,6 +207,9 @@ strong {
 
 #contact a {
     color: white;
+    font-size: larger;
+    display: flex;
+    flex-flow: column;
 }
 
 /* Resume */
