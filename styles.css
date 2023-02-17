@@ -183,9 +183,11 @@ strong {
 }
 
 #projects p {
+     margin: 15px;
     padding: 20px 0px;
     line-height: 35px;
     font-size: 18px;
+    text-align: left;
 }
 
 /*Hover info class goes here*/
