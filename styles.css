@@ -7,8 +7,6 @@ body * {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*Section rules to give the page structure */
-
 .section {
     min-height: 100vh;
 }
@@ -33,8 +31,6 @@ body * {
     text-shadow: .5px .5px .5px #a7a7a7;
 }
 
-/*Heading and list styling */
-
 h1 {
     font-size: 40px;
 }
@@ -43,7 +39,9 @@ li {
     display: inline;
 }
 
-li a {
+li a,
+button,
+button a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,7 +49,8 @@ li a {
     background: rgb(0, 53, 107);
 }
 
-li a:hover {
+li a:hover,
+button a:hover {
     background: rgb(0, 18, 44);
     background: linear-gradient(0deg, rgb(106, 106, 107) 0%, rgb(255, 255, 255) 100%);
     color: rgb(0, 53, 107);
@@ -60,10 +59,16 @@ li a:hover {
 
 hr {
     border-top: 8px solid #00356b;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-/* Navigation and Introduction */
+img a:hover {
+    border-color: rgb(0, 3, 255);
+    border-color: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgba(2, 126, 251, 1) 100%);
+}
+
+
+/* Heading and Introduction */
 
 #topNav {
     background-color: #00356b;
@@ -98,6 +103,7 @@ strong {
     font-size: 55px;
 }
 
+
 /* ---- particles.js container ---- */
 
 #particles-js {
@@ -105,7 +111,7 @@ strong {
     width: 100%;
     height: 100%;
     background-color: #00356b;
-     background-image: linear-gradient(#00356b, rgb(106, 106, 107), #d9d9d9);
+    background-image: linear-gradient(#00356b, rgb(106, 106, 107), #d9d9d9);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -122,31 +128,36 @@ strong {
 
 #experience {
     position: relative;
-     padding: 0px 10px;
+    padding: 0px 10px;
+}
+
+#experience li {
+    font-size: 45px;
+    color: #d9d9d9;
+    padding: 5px;
 }
 
 #experience h1 {
     padding: 50px 0px;
 }
 
-#experience p {
-    font-size: 50px;
-}
-
-/* Experience images */
-
 #experience img {
+    transition: all .2s ease-in-out;
     padding: 0px 25px;
     margin: 0px 0px 45px;
     transition: all .2s ease-in-out;
 }
 
 #experience img:hover {
-   -webkit-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
 
+#experience p {
+    font-size: 50px;
+    font-family: 'Notable', sans-serif;
+}
 
 
 /* Projects */
@@ -154,7 +165,6 @@ strong {
 .flex-container {
     display: grid;
     grid-template-columns: 80% 80%;
-    /*Been messing with how to display the projects together, with grid I can display side by side but they don't line up properly */
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
@@ -178,25 +188,24 @@ strong {
 }
 
 #projects p {
-     margin: 15px;
+    margin: 15px;
     padding: 20px 0px;
     line-height: 35px;
     font-size: 18px;
     text-align: left;
 }
 
-/*Hover info class goes here*/
-
 #projects li {
     padding: 30px 20px;
 }
 
-/* Contact */
+
+/* Contact info */
 
 #contact h2 {
     margin: 25px 0;
     font-size: 35px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 #contact img {
@@ -209,12 +218,6 @@ strong {
     font-size: 35px;
     display: flex;
     flex-flow: column;
-}
-
-/* Resume */
-
-#resume img {
-    padding: 50px 0px;
 }
 
 @media (max-width: 1200px) {
@@ -236,4 +239,3 @@ strong {
         padding: 0px 2px;
     }
 }
-
