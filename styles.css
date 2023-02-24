@@ -33,11 +33,6 @@ body * {
     text-shadow: .5px .5px .5px #a7a7a7;
 }
 
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
-
 /*Heading and list styling */
 
 h1 {
