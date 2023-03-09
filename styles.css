@@ -205,6 +205,7 @@ strong {
 
 #contact h1 {
     color: white;
+    text-shadow: 0 0 3px black;
 }
 
 #contact h2 {
@@ -212,6 +213,7 @@ strong {
     font-size: 35px;
     line-height: 40px;
     color:white;
+    text-shadow: 0 0 3px black;
 }
 
 #contact img {
@@ -224,6 +226,7 @@ strong {
     font-size: 35px;
     display: flex;
     flex-flow: column;
+    text-shadow: 0 0 3px black;
 }
 
 @media (max-width: 1200px) {
